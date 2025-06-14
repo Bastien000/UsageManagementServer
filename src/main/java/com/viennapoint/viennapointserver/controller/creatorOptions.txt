@@ -1,0 +1,67 @@
+{creatorOptionsEntityID: 1,
+creatorOptions: {
+  "buildings": {
+    "VP1": {
+      "add_rows": [
+        {
+          "name": "Omega reklama",
+          "consumption": 0,
+          "type": "None",
+          "area": 0,
+          "percentage": "0%"
+        }
+      ],
+      "apply_formulas": [
+        {
+          "condition": {
+            "row_name_contains": "SPOLECNA VP1"
+          },
+          "target_rows": {
+            "exclude": ["Omega reklama", "STRECHA REKLAMA VP1", "SPOLECNA VP1"]
+          },
+          "formula": "=B{row} + ($B${condition_row} * E{row})"
+        },
+        {
+          "condition": {
+            "row_name_contains": "STRECHA REKLAMA VP1"
+          },
+          "target_rows": {
+            "include": ["ZETA", "VP1", "EDsystem", "Omega reklama"]
+          },
+          "formula": {
+            "ZETA": "{current_value} + {condition_value} * 0.2",
+            "VP1": "{current_value} + {condition_value} * 0.2",
+            "EDsystem": "{current_value} + {condition_value} * 0.4",
+            "Omega reklama": "{condition_value} * 0.2"
+          }
+        }
+      ]
+    },
+    "VP3": {
+      "apply_formulas": [
+        {
+          "condition": {
+            "row_name_contains": "SPOLECNA VP3"
+          },
+          "target_rows": {
+            "exclude": ["VP3 + VP6", "SPOLECNA VP3"]
+          },
+          "formula": "=B{row} + ($B${condition_row} * E{row})"
+        },
+       {
+  "condition": {
+    "row_name_contains": "VP3 + VP6"
+  },
+  "action": {
+    "type": "modify_row",
+    "new_name": "VP3",
+    "new_fakturovat": "=B{row} - B{vp6_row}"
+  },
+  "depends_on": {
+    "row_name_contains": "KONG VP6"
+  }
+}
+      ]
+    }
+  }
+}}

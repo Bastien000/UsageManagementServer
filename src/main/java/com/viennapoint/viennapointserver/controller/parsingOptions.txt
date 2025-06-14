@@ -1,0 +1,97 @@
+{
+  "parsingOptionsEntityID": 0,
+  "remapingOptions": {
+    "ZETA": ["V.P.1-5.n.p.ZETA /Vienna Point a.s. /kW", "V.P.1-5.n.p. ZETA /Vienna Point a.s. /kW", "V.P.1-4.n.p.ZETA /Vienna Point a.s. /kW", "V.P.1-1.n.p.ZETA /Vienna Point a.s. /kW"],
+    "SPOLECNA VP1": ["V.P.1-SPOLECNA /Vienna Point a.s. /kW", "V.P.1-KOT. SPOLECNA /Vienna Point a.s. /kW", "V.P.1-1.n.p SPOLECNA /Vienna Point a.s. /kW"],
+    "VP1": ["V.P.1-3.n.p.V.P. /Vienna Point a.s. /kW"],
+    "STRECHA REKLAMA VP1": ["V.P.1-støec.-reklama /Vienna Point a.s. /kW"],
+    "GastroCentrum": ["V.P.1-1.n.p.kuchynì /Vienna Point a.s. /kW"],
+    "Onio": ["V.P. 1-4.n.p.ONIO /Vienna Point a.s. /kW"],
+    "Soare": ["V.P.1-6.n.p.Soare /Vienna Point a.s. /kW"],
+    "EDsystem": ["V.P.1-6.n.p.EDsystem /Vienna Point a.s. /kW"],
+    "ABK": ["V.P.3 ABK /Vienna Point a.s. /kW"],
+    "SPOLECNA VP3": ["V.P.3 SPOLECNA /Vienna Point a.s. /kW"],
+    "REZERVA VP3": ["rezerva /Vienna Point a.s. /kW"],
+    "KEIM": ["V.P.3 KEIM /Vienna Point a.s. /kW"],
+    "VP3 + VP6": ["V.P.3+6 /Vienna Point a.s. /kW"],
+    "KONG VP3": ["V.P.3 KONG /Vienna Point a.s. /kW"],
+    "KONG VP6": ["EL. V.P.6 KONG /Vienna Point a.s. /kW"],
+    "O2": ["O2 /Vienna Point a.s. /kW"],
+    "SPOLECNA VP2": ["V.P.2 ohøev vozovky /Vienna Point a.s. /kW", "V.P.2 Chlazeni 1 /Vienna Point a.s. /kW", "V.P.2 Chlazení 2 /Vienna Point a.s. /kW"],
+    "MaR": ["MaR v.p.2 /Vienna Point a.s. /kW"],
+    "Poda": ["PODA /Vienna Point a.s. /kW"],
+    "Celthera": ["CELTHERA /Vienna Point a.s. /kW"],
+    "Havel": ["HAVEL /Vienna Point a.s. /kW"],
+    "VP2": ["1.n.p. recepce /Vienna Point a.s. /kW", "1.n.p. kavárna /Vienna Point a.s. /kW"],
+    "AUTO Onion": ["AUTO 1.N.P. ONIO /Vienna Point a.s. /kW"],
+    "AUTO Kone2": ["AUTO 1.N.P. KONE2 /Vienna Point a.s. /kW"],
+    "AUTO Osp": ["AUTO 2.P.P. OSP /Vienna Point a.s. /kW"],
+    "VP2 2.np": ["2.n.p. /Vienna Point a.s. /kW"],
+    "VP2 3.np": ["3.n.p. /Vienna Point a.s. /kW"],
+    "Geneproof": ["GENErátor /Vienna Point a.s. /kW", "4.n.p. /Vienna Point a.s. /kW", "8.n.p. /Vienna Point a.s. /kW", "5.n.p. /Vienna Point a.s. /kW"],
+    "VP2 7.np": ["7.n.p. /Vienna Point a.s. /kW"],
+    "Rail": ["AUTO 1.N.P. RCL /Vienna Point a.s. /kW"],
+    "Prmds": ["9.n.p. /Vienna Point a.s. /kW"],
+    "VP 10.np": ["10.n.p. /Vienna Point a.s. /kW"],
+    "VP2 11.np": ["11.n.p. /Vienna Point a.s. /kW"],
+    "PLYN VP2": ["plyn V.P.2 /Vienna Point a.s. /m3/h"]
+  },
+  "splitOptions": [
+    {
+      "V.P.1-2.n.p.HOME CR. /Vienna Point a.s. /kW": 1.0,
+      "HomeCredit archiv": 0.98,
+      "HomeCredit kancelare": 0.02
+    },
+    {
+      "2.n.p. /Vienna Point a.s. /kW": 1.0,
+      "Kone VP2": 0.27051,
+      "Cobap": 0.256098,
+      "Henry": 0.342572,
+      "Tp": 0.13082
+    },
+    {
+      "3.n.p. /Vienna Point a.s. /kW": 1.0,
+      "Esentra": 0.476190476,
+      "Ies": 0.083969,
+      "Dataclue": 0.025412,
+      "Benteler": 0.112695,
+      "Nerezové": 0.140316,
+      "Rewan": 0.046404,
+      "Obo Bet": 0.064192,
+      "MJE": 0.050823
+    },
+    {
+      "6.n.p. /Vienna Point a.s. /kW": 1.0,
+      "Kebab": 0.149466,
+      "Rail": 0.291815,
+      "Esko grap": 0.228944,
+      "Zábavné učení": 0.035587,
+      "Atalian": 0.294187
+    },
+    {
+      "7.n.p. /Vienna Point a.s. /kW": 1.0,
+      "Clever maps": 0.380517504,
+      "Beko": 0.348988911,
+      "Rjp": 0.270493586
+    },
+    {
+      "10.n.p. /Vienna Point a.s. /kW": 1.0,
+      "Omega pharma": 0.418,
+      "Afry": 0.45
+    },
+    {
+      "11.n.p. /Vienna Point a.s. /kW": 1.0,
+      "Hitachi": 0.491767289,
+      "Agerit": 0.37650933,
+      "Kipp": 0.1064764,
+      "Ams": 0.025246981,
+      "ZU": 0.0
+    },
+    {
+      "12.n.p. /Vienna Point a.s. /kW": 1.0,
+      "Celthera": 0.560649475,
+      "Kramp": 0.246418338,
+      "Cdz": 0.192932187
+    }
+  ]
+}
